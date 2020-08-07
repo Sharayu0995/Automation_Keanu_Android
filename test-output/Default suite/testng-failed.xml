@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="keanu.Tests.AppHeaderArchiveUnarchiveTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="createChatRoom"/>
+          <include name="quitSession"/>
+          <include name="aaasetUp"/>
+          <include name="archiveChatRoom"/>
+          <include name="checkAlerts"/>
+          <include name="handelErrorPopup"/>
+        </methods>
+      </class> <!-- keanu.Tests.AppHeaderArchiveUnarchiveTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

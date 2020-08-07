@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" data-provider-thread-count="1" name="Failed suite [Friends Screen Test]">
+  <test parallel="methods" name="Friends Screen Test(failed)">
+    <classes>
+      <class name="keanu.Tests.FriendsScreenTest">
+        <methods>
+          <include name="chatWithSpecificFriend"/>
+          <include name="setUp"/>
+          <include name="quitSession"/>
+          <include name="addDeletedContact"/>
+          <include name="createGroupWithReAddedDeletedContact"/>
+          <include name="aaasetUp"/>
+          <include name="deleteNewContact"/>
+          <include name="checkAlerts"/>
+          <include name="handelErrorPopup"/>
+        </methods>
+      </class> <!-- keanu.Tests.FriendsScreenTest -->
+    </classes>
+  </test> <!-- Friends Screen Test(failed) -->
+</suite> <!-- Failed suite [Friends Screen Test] -->
